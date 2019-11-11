@@ -6,7 +6,7 @@ function Question (props) {
 
     const showOptions = () => {
         return(
-            questionBody.options.map((option, i) => <QuestionOption value={option} key={i} />)
+            questionBody.options.map((option, i) => <QuestionOption value={option} key={i} scoreQuestion={props.scoreQuestion} />)
         )
     }
 

@@ -4,7 +4,7 @@ function QuestionOption(props){
     let optionValue = props.value;
 
     return(
-        <div onClick={()=> console.log(props.value)}>
+        <div onClick={()=> props.scoreQuestion(props.value)}>
           <input type='radio' />
           <p>{optionValue}</p>  
         </div>
