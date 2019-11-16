@@ -1,5 +1,6 @@
 import React from "react";
 import QuestionOption from "./QuestionOption";
+import { Header } from 'semantic-ui-react';
 
 function Question (props) {
     let questionBody = props.content;
@@ -12,8 +13,8 @@ function Question (props) {
 
     return(
         <div>
-          <p>{questionBody.question}</p>
-          {showOptions()}
+            <Header size='large' color='red'><p>{questionBody.question}</p></Header>
+            {showOptions()}
         </div>
     )
 }

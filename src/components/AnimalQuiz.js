@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import QuestionGenerator from "../utils/QuestionGenerator";
 import Question from "./Question";
 import Result from "./Result";
+import { Header } from 'semantic-ui-react';
+import "./styles.css";
 
 
 class AnimalQuiz extends Component {
@@ -42,9 +44,9 @@ class AnimalQuiz extends Component {
 
     render(){ 
         return(
-          <div>
-                <h1>How Much do you know about Animals?</h1>
-                <h3>Test your knowledge here!</h3>
+          <div className="main">
+                <Header size='huge' color='blue'>How Much do you know about Animals?</Header>
+                <Header size='large' color='blue'>Test your knowledge here!</Header>
                 {this.showContent()}
           </div>  
         )
