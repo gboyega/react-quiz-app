@@ -1,8 +1,5 @@
 import React from "react";
-import { Checkbox } from 'semantic-ui-react';
-import { Radio } from 'semantic-ui-react';
-import { Header } from 'semantic-ui-react';
-import { Card } from 'semantic-ui-react'
+import { Header, Card } from 'semantic-ui-react';
 import "./styles.css";
 
 function QuestionOption(props){
