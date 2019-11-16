@@ -45,8 +45,9 @@ class AnimalQuiz extends Component {
     render(){ 
         return(
           <div className="main">
-                <Header size='huge' color='blue'>How Much do you know about Animals?</Header>
-                <Header size='large' color='blue'>Test your knowledge here!</Header>
+                <div style={{height:"20px"}}></div>
+                <p><Header size='huge' color='blue'>How Much do you know about Animals?</Header></p>
+                <p><Header size='large' color='blue'>Test your knowledge here!</Header></p>
                 {this.showContent()}
           </div>  
         )

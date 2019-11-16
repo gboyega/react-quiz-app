@@ -1,3 +1,21 @@
-.body{
+body{
+    text-align: center;
+    
+}
+
+#root{
+    background: linear-gradient(rgba(7, 7, 7, 0.6), rgba(7, 7, 7, 0.6)), url(https://media3.s-nbcnews.com/j/streams/2013/May/130502/6C7186838-tdy-130502-monkey-tiger-friends.fit-760w.jpg), no-repeat;
+    background-size: 100%;
+    background-position:center center;
+    height: 100%;
+    width: 100%;
+}
+
+.options{
+    width:40%;
+    margin:auto;
     text-align: center;
 }
+ .innercard{
+     display: inline-block;
+ }

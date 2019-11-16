@@ -13,7 +13,7 @@ function Question (props) {
 
     return(
         <div>
-            <Header size='large' color='red'><p>{questionBody.question}</p></Header>
+            <p><Header size='large' color='red'><p>{questionBody.question}</p></Header></p>
             {showOptions()}
         </div>
     )
